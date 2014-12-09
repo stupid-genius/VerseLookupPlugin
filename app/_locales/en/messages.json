@@ -4,7 +4,7 @@
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "description",
+    "message": "Scans the current page for Bible verse references and adds a tooltip with the verse text.",
     "description": "The description of the application"
   }
 }
