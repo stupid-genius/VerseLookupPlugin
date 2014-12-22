@@ -7,15 +7,8 @@ chrome.runtime.onInstalled.addListener(function(details) {
 });
 
 chrome.omnibox.onInputEntered.addListener(function(input, disposition){
-	disposition = 'newForegroundTab';
 	if(input.match(versePattern)){
-		$.ajax({
-			url: input.replace(versePattern, 'https://labs.bible.org/api/?passage=$1+$2:$3')
-		})
-		.done(function(verse){
-			console.log(verse);
-			console.log('omnibox command: %s', verse);
-		});
+		chrome.tabs.create({url: input.replace(versePattern, 'https://labs.bible.org/api/?passage=$1+$2:$3')});
 	}
 });
 
