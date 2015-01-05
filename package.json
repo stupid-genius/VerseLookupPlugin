@@ -1,6 +1,11 @@
 {
   "name": "bible-verse-tooltips",
-  "version": "0.0.0",
+  "description": "A Chrome plugin that scans the current page for Bible verse references and creates a tooltip that contains the verse text.",
+  "repository":{
+  	"type": "git",
+  	"url": "https://github.com/stupid-genius/VerseLookupPlugin.git"
+  },
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
