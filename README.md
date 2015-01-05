@@ -11,7 +11,7 @@ Type "bible" into the Omnibox and press `TAB`, then enter a verse and press `ENT
 Prerequisites:
 --------------
 
-You'll need [Node](http://nodejs.org/), [Grunt](http://gruntjs.com/), & [Bower](http://gruntjs.com/).
+You'll need [Node](http://nodejs.org/), [Grunt](http://gruntjs.com/), & [Bower](http://bower.io/).
 
 Build:
 -------------
@@ -19,6 +19,7 @@ Build:
  1. Clone the repo or download the source
  2. From repo root, run `npm install`, then `bower install`
  3. From ./test, run `bower install`
+ 4. Run `grunt`
 
 Known issues:
 -------------
